@@ -1,0 +1,47 @@
+#right_column {
+    clear:none;
+    position: relative;
+    background-color: inherit;
+    float: right;
+    width: 215px;
+    color: rgb(255, 255, 255);
+    margin-top: -1px;
+    margin-right: -1px;
+    padding-bottom: 20px;
+}
+#left_column {
+
+    float: left;
+    width: 625px;
+    margin-right:-1;
+    clear:none;
+}
+#left_column .myself{
+
+	clear: none;
+   position: relative;
+  margin: 0px 0px 10px 85px;
+  padding: 15px 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(187, 187, 187);
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.46);
+  border-bottom: 0px none;
+  height:50px;
+  width:315px;
+	
+	
+}
+#indexshow li{
+clear: none;
+float: left;
+position: relative;
+margin: 8px 3px;
+width: 150px;
+padding: 15px 20px;
+color:rgb(0,0,0);
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(187, 187, 187);
+word-wrap: break-word;
+border-radius: 6px 6px 6px 6px;
+}

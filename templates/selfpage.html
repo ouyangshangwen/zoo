@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block link %}
+    <link rel="stylesheet" type="text/css" href="/css/mypage.css" />
+
+
+
+{% endblock %}
+{% block body%}
+<div id="nav">
+
+</div>
+<div id="container">
+
+
+
+
+<div id="content">
+<ol id="indexshow">
+{%for photos in latestphotos%}
+
+<li>
+<p>{{photos.pet.type}}</p>
+<p>{{photos.created_data}}</p>
+</li>
+{%endfor%}
+<li><h1>最近5天结束</h1></li>
+{%for photos in catphotos %}
+
+<li>
+<p>{{photos.pet.type}}</p>
+<p>{{photos.created_data}}</p>
+</li>
+{%endfor%}
+<li><h1>90天内猫的图片结束</h1></li>
+{%for photos in otherphotos%}
+
+<li>
+<p>{{photos.pet.type}}</p>
+<p>{{photos.created_data}}</p>
+</li>
+{%endfor%}
+<li><h1>90天内其他动物的图片结束</h1></li>
+</ol>
+
+
+</div>
+{% endblock %}
